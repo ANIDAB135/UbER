@@ -1,0 +1,286 @@
+@media (max-width: 1200px) {
+
+    .promo {
+        padding: 21px 50px 93px 50px;
+
+        &__wrapper {
+            h1 {
+                font-size: 40px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .advantages {
+        padding: 70px 50px 65px 50px;
+    }
+
+    .advice {
+
+        padding: 100px 50px 100px 50px;
+
+        h2 {
+            font-size: 30px;
+        }
+
+        &__subheader {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+
+    .promo {
+        padding: 20px 30px 90px 30px;
+       
+        &__wrapper {
+            h1 {
+                font-size: 36px;
+            }
+
+            h2 {
+                font-size: 19px;
+            }
+        }
+    }
+
+    .advantages {
+        padding: 70px 30px 65px 30px;
+
+        h2 {
+            font-size: 26px;
+        }
+
+        &__icon {
+            width: 200px;
+        }
+    }
+
+    .advice {
+
+        padding: 100px 30px 100px 30px;
+
+        h2 {
+            font-size: 26px;
+        }
+
+        &__subheader {
+            font-size: 18px;
+        }
+    }
+
+
+}
+
+@media (max-width: 767px) {
+
+    .header {
+
+        justify-content: space-around;
+        align-items: flex-end;
+        
+        &__logo {
+            width: 230px;
+            vertical-align: bottom;
+        }
+
+        &__official {
+            display: none;
+            font-size: 14px;
+            font-weight: 400;
+
+            span {
+                font-size: 18px;
+            }
+        }
+
+        &__phone {
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        .button__header {
+            width: 150px;
+        }
+    }
+
+    .promo {
+        padding: 20px 20px 90px 20px;
+
+        h1 {
+            font-size: 32px;
+        }
+        h2 {
+            font-size: 17px;
+        }
+
+        &__icons {
+            justify-content: flex-end;
+            font-size: 13px;
+        }
+
+        &__icon {
+            margin-left: 30px;
+            img {
+                width: 35px;
+                height: 37px;
+            }
+        }
+        
+        .button__main {
+            width: 250px;
+            height: 45px;
+            font-size: 15px;
+        }
+
+        &__link {
+            font-size: 15px;
+        }
+    }
+
+    .advantages {
+        padding: 70px 20px 65px 20px;
+
+        h2 {
+            font-size: 24px;
+        }
+
+        &__icons {
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__icon {
+           width: 100%;
+           margin-bottom: 40px;
+        }
+    }
+
+    .advice {
+        padding: 90px 20px 90px 20px;
+        h2 {
+            font-size: 20px;
+        }
+
+        &__subheader {
+            font-size: 16px;
+        }
+
+        .feed-form {
+            width: 240px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+
+    
+
+    .header {
+
+        justify-content: space-between;
+
+        &__logo {
+            width: 140px;
+        }
+
+        &__phone {
+            font-size: 13px;
+            a {
+                align-items: center;
+            }
+        }
+
+        .button__header {
+            width: 125px;
+            font-size: 10px;
+        }
+    }
+
+    .promo {
+        padding: 20px 5px 90px 5px;
+
+        &__wrapper {
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+        h2 {
+            font-size: 15px;
+        }
+
+        &__icons {
+            justify-content: center;
+        }
+
+        &__icon {
+            margin: 0 10px;
+            width: 80px;
+        }
+
+        .button__main {
+            width: 200px;
+            font-size: 13px;
+        }
+
+        &__link {
+            font-size: 13px;
+        }
+    }
+
+    .advantages {
+        padding: 70px 10px 45px 10px;
+        h2 {
+            font-size: 22px;
+        }
+    }
+
+
+    .advice {
+        min-height: 600px;
+        padding: 70px 10px 70px 10px;
+
+        h2 {
+            font-size: 17px;
+            text-align: center;
+            font-weight: 500px;
+        }
+        &__subheader {
+            font-size: 15px;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        .feed-form {
+            margin: 35px auto 0px;
+            justify-content: flex-end;
+            width: 220px;
+            
+            input {
+               height: 40px;
+            }
+        }
+
+        .button__advice {
+            height: 45px;
+            font-size: 13px;
+        }
+
+    }
+
+
+
+
+}
+
+
+

@@ -1,0 +1,36 @@
+{
+  "name": "v.s.-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANIDAB135/UbER.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ANIDAB135/UbER/issues"
+  },
+  "homepage": "https://github.com/ANIDAB135/UbER#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "package.json": "^2.0.1"
+  },
+  "description": ""
+}

@@ -1,0 +1,21 @@
+.advice {
+    min-height: 690px;
+    padding: 100px 0 100px 0;
+    background: url(../image/bg2.png) center (center/cover) no-repeat;
+
+    h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 50px;
+        color: $var2;
+        text-transform: uppercase;
+    }
+
+    &__subheader {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: $var2;
+    }
+
+}
